@@ -31,22 +31,21 @@ html{
 /* HEADER */
 header{
     width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
     /* DEBUG */
     min-height: 200px;
-    background-color: blue;
     /* /DEBUG */
 }
 .div-nav{
-    background-color: aquamarine;
     padding: 10px;
 }
 header nav.sidebar{
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
-    background-color: orange;
     line-height: 30px;
-    /* /DEBUG */
 }
 nav .list-items{
     width: 50%;
@@ -55,6 +54,7 @@ nav.sidebar ul{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav ul a{
     text-decoration: none;
@@ -80,29 +80,23 @@ section{
 .div-section{
     display: flex;
     /* DEBUG */
-    min-height: 170px;
     /* /DEBUG */
 }
 .div-img{
     width: 60%;
-    /* DEBUG */
-    height: 170px;
-    background-color: aqua;
-    /* /DEBUG */
+}
+.div-img img{
+    width: 100%;
 }
 .div-text{
     width: 40%;
     /* DEBUG */
-    height: 170px;
     background-color: pink;
     /* /DEBUG */
 }
 /* section4*/
-.div-lastsection{
-    /* DEBUG */
-    min-height: 400px;
-    background-color: green;
-    /* /DEBUG */
+.div-lastsection img{
+    width: 100%;
 }
 /* /MAIN */
 /* FOOTER */
