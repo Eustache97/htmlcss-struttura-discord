@@ -1,5 +1,72 @@
+/* RESET */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
+/* /RESET */
+
+/* COMMON */
+html{
+    font-family:sans-serif
+    font-size: 1rem;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+/* /COMMON */
+
+/* UTILITY */
+/* DEBUG */
+.bdr{
+    border: 1px dashed black;
+/* /DEBUG */
+}
+/* /UTILITY */
+
+/* HEADER */
+header{
+    width: 100%;
+    /* DEBUG */
+    min-height: 200px;
+    background-color: blue;
+    /* /DEBUG */
+}
+.div-nav{
+    background-color: aquamarine;
+    padding: 10px;
+}
+header nav.sidebar{
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: orange;
+    line-height: 30px;
+    /* /DEBUG */
+}
+nav .list-items{
+    width: 50%;
+}
+nav.sidebar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul a{
+    text-decoration: none;
+}
+.div-jumbotron{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    /* DEBUG */
+    min-height: 170px;
+    /* /DEBUG */
+}
+.jumbotron{
+    height: 170px;
+    background-color: coral;
+    /* /DEBUG */
+}
+/* /HEADER */
