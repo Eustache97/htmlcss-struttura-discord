@@ -14,10 +14,13 @@ html{
 .container{
     width: 60%;
     margin: 0 auto;
-}
+}    
 /* /COMMON */
 
 /* UTILITY */
+.bg{
+    background-color: lightgrey;
+}
 /* DEBUG */
 .bdr{
     border: 1px dashed black;
@@ -70,3 +73,35 @@ nav ul a{
     /* /DEBUG */
 }
 /* /HEADER */
+/* MAIN */
+section{
+    padding: 20px;
+}
+.div-section{
+    display: flex;
+    /* DEBUG */
+    min-height: 170px;
+    /* /DEBUG */
+}
+.div-img{
+    width: 60%;
+    /* DEBUG */
+    height: 170px;
+    background-color: aqua;
+    /* /DEBUG */
+}
+.div-text{
+    width: 40%;
+    /* DEBUG */
+    height: 170px;
+    background-color: pink;
+    /* /DEBUG */
+}
+/* section4*/
+.div-lastsection{
+    /* DEBUG */
+    min-height: 400px;
+    background-color: green;
+    /* /DEBUG */
+}
+/* /MAIN */
