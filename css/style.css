@@ -105,3 +105,46 @@ section{
     /* /DEBUG */
 }
 /* /MAIN */
+/* FOOTER */
+footer{
+    background-color: #1f1d1d;
+    padding: 20px;
+}
+.div-footer{
+    display: flex;
+    margin-bottom: 20px;
+    /* DEBUG */
+    min-height: 300px;
+    /* /DEBUG */
+}
+.foot-list{
+    width: 70%;
+    display: flex;
+    /* DEBUG */
+    height: 300px;
+    background-color: aqua;
+    /* /DEBUG */
+}
+.foot-text{
+    width: 30%;
+    /* DEBUG */
+    height: 300px;
+    background-color:coral;
+    /* /DEBUG */
+}
+footer .ul-footlist{
+    width: calc(100% / 4);
+/* DEBUG */
+border: 1px dashed white;
+/* /DEBUG */
+}
+footer .foot-end{
+display: flex;
+line-height: 40px;
+justify-content: space-between;
+margin-top: 20px;
+/* DEBUG */
+background-color: aquamarine;
+/* /DEBUG */
+}
+/* /FOOTER */
